@@ -7,20 +7,21 @@ body{
 
 }
 h1{
-    color: rgb(232, 64, 64);
-    font-family: cursive;
+    color: rgb(255, 40, 183);
+    font-family:fantasy;
+    font-size: 200%;
   }
 .saludo{
-    color: rgb(42, 159, 65);
+    color: rgb(175, 2, 255);
     font-family: monospace;
-    font-size: 120%;
+    font-size: 180%;
 }
 .info{
-    color: rgb(42, 158, 106);
+    color: rgb(0, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .desc{
-    color: rgb(67, 142, 38);
+    color: rgb(0, 187, 255);
     font-family: monospace;
     font-size: 130%;
 }
@@ -28,7 +29,7 @@ h1{
     float: left;
     width: 33.33%;
     padding: 15px;
-    color: rgb(94, 255, 0);
+    color: rgb(195, 0, 255);
     font-family: monospace;
   }
   
@@ -44,7 +45,7 @@ h1{
     }
   }
   button{
-    background-color: red;
+    background-color: rgb(31, 123, 49);
 color: white;
 padding: 8px 20px;
   text-align: center;
@@ -54,6 +55,6 @@ padding: 8px 20px;
 }
 button:hover
 {
-  background-color: rgb(153, 6, 6);
+  background-color: rgb(4, 73, 1);
 
 }
