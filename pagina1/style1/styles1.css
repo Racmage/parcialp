@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(22, 25, 40);
+}
+h2{
+    color: rgb(232, 64, 64);
+    font-family: cursive;
+  }
+.saludo{
+    color: rgb(42, 159, 65);
+    font-family: monospace;
+    font-size: 120%;
+}
+.info{
+    color: rgb(42, 158, 106);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.desc{
+    color: rgb(67, 142, 38);
+    font-family: monospace;
+    font-size: 130%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    color: rgb(94, 255, 0);
+    font-family: monospace;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  button{
+    background-color: red;
+color: white;
+padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: cursive;
+}
+button:hover
+{
+  background-color: rgb(153, 6, 6);
+
+}
